@@ -1,0 +1,42 @@
+body {
+	background-color:lightblue;
+	border:solid;
+
+
+}
+h1 {
+	color:brown;
+	font-size: 30px ;
+	 
+	padding: 10px
+
+}
+ul {
+	color:green;
+	font-size: 20px;
+	margin:20px;
+}
+a  {
+	font-size: 50px;
+	color:red;
+	margin:50px;
+}
+
+a:hover {
+	color:white;
+	background:red;
+}
+#hello {
+	margin-left:550px;
+}
+.hanaa{
+	color:purple;
+	text-align: center;
+	font-size: 20px;
+	font-family: georgia;
+}
+.hanaa:hover {
+	color:green;
+	background-color: none;
+}
+

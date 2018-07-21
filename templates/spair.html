@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Nesma Abu Shammala</title>
+	<link rel="stylesheet" type ="text/css" href ="../static/spair2.css">
+</head>
+<body >
+	<center><h1>Hello!My name is Nesma</h1></center>
+	
+	<div class="container">
+		<p id ="demo"></p>
+		<button id ="nesma" onClick =changeText() >Click Me!</button>
+		<br>
+		<button id ="hello" onClick=info() onMouseOut=clearText() onMouseover=changetext()>About me!</button>
+		
+		<div class ="hanaa">
+			<h2 id ="Header"></h2>
+			<h3 id="header"></h2>
+			<h4 id="Header1"></h3>
+		</div>
+		
+		<script >
+
+
+			function changeText  (){
+				document.getElementById("nesma").innerHTML="Hi!"
+
+				open("https://scontent.fgza1-1.fna.fbcdn.net/v/t1.0-9/34284494_1064308680374935_8692124847657975808_n.jpg?_nc_cat=0&oh=2891682fe1291439edec60733c31f7af&oe=5BCD2C4E")
+			}
+			
+			
+
+			var  total=0
+			function info(){
+				total =total+1;
+				if (total ==1 || total==7 || total==15){
+					var heading=document.getElementById('Header');
+					heading.innerHTML="I'm 15 years old";}
+					if (total==2 || total ==8 || total==14){
+						var heading=document.getElementById('header');
+						heading.innerHTML="My hobbies are :swimming,reading and coding";}
+					if (total==3 || total ==9 || total ==15){
+						var heading=document.getElementById('Header1');
+						heading.innerHTML="my faviurate books are : Origin,You are mine,etc";}
+					if (total==4 || total ==10 || total==16){
+						var heading=document.getElementById('Header1');
+						heading.innerHTML=""
+					}
+					if (total ==5 || total==11 || total==17){
+						var heading=document.getElementById("header");
+						heading.innerHTML=""
+					}
+					if (total ==6 || total==12 || total==18){
+						var heading=document.getElementById("Header");
+						heading.innerHTML=""
+					}
+			}
+			var d = new Date();
+			document.getElementById("demo").innerHTML = d;
+
+					
+
+				
+
+				
+				
+				
+			
+
+
+			
+			
+
+		</script>
+
+
+
+
+	
+	<h2 >Some facts about me:- </h2>
+	<ul>
+		<li>I'm interested in Physics</li>
+		<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwAFCQLJEO9TiOcIm_jj1yi3i1vA-KQEGWBYVqskUfOWvNl-r5"width ="300" height="300">
+		<li >I like everything about South-Korea</li>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLSWci3uEaJ2z-EissaVx7YB146BH4uhtSgQ0bby0O7zbeb9G" width="700"height ="300">
+		<li >I'm in love with chocolate</li>
+		<img src ="https://i.ebayimg.com/images/g/e5oAAOSwpDdVXOXd/s-l300.jpg"width ="600"height="300">
+
+	</ul>
+	
+	<!--<img src = "https://scontent.fgza1-1.fna.fbcdn.net/v/t1.0-9/34284494_1064308680374935_8692124847657975808_n.jpg?_nc_cat=0&oh=2891682fe1291439edec60733c31f7af&oe=5BCD2C4E"width ="300"height="400">--> 
+	<img src="file:///home/wecode/Downloads/37107678_1018260845014720_3605841777631690752_n.jpg"width ="300"height = "400"> <img src ="file:///home/wecode/Pictures/2017/FB_IMG_1513606349471.jpg"width ="300"height= "400"> <img src ="file:///home/wecode/Pictures/2017/FB_IMG_1507519590970.jpg"width ="300"height ="400">
+	<br>
+
+
+
+	<a href = "https://www.youtube.com/">That's my favourite link </a>
+</body>
+</html>
